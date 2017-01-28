@@ -1,0 +1,54 @@
+%header
+\documentclass[12pt]{article}
+% load the package from the American Mathematical Society,
+% which contain many useful commands and symbols
+\usepackage{amsmath}
+\usepackage{amssymb}
+% load graphics package so that we can import images
+\usepackage{graphicx}
+% Package for dealing with files with spaces in names
+\usepackage[space]{grffile}
+\usepackage{float}
+% Bibliography
+\usepackage{natbib}
+\usepackage{url}
+\usepackage{hyperref}
+% Math macros
+\usepackage{mathmacros}
+
+% set page dimensions
+\textwidth 6.5in
+\textheight 8.5in
+\evensidemargin 0.0in
+\oddsidemargin 0.0in
+\topmargin 0.0in
+\headsep 50pt
+\headheight 0.0in
+\footskip 0.0in
+% set line spacing
+\renewcommand{\baselinestretch}{1.1}
+\renewcommand\floatpagefraction{.9}
+% math macros
+
+
+% set the page style to use custom headings
+\pagestyle{headings}
+% don't indent paragraphs
+\setlength\parindent{0pt}
+% put skip 8 points between paragraphs
+\parskip 8pt
+%start of document
+
+
+\begin{document}
+
+\section{Start a section here}
+
+With some $m\m{A}^{\tpose}\mathcal{H}$ $\det$ $\tr$
+$\argmin{a}\argmax{b} a\cdot b$
+
+\begin{equation}
+\bra{\psi} = \braket{\psi^{a}}{\psi_{b}}\ketbra{\phi}{\frac{a}{b}}\bra{a}
+\end{equation}
+
+\end{document}
