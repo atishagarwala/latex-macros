@@ -4,7 +4,9 @@ Add the .sty file to either the folder where the latex document is, or to the ap
 directory, which is found at:
 
 Windows: `C:\Users\<user name>\texmf\tex\latex\local\`
+
 Mac: `/Users/<user name>/Library/texmf/tex/latex/local/`
+
 Linux: `~/texmf/tex/latex/local/`
 
 Then, just need
